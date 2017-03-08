@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>Handlebars.Net1.8.0Signed</id>
+    <version>1.8.0</version>
+    <title>Handlebars.Net1.8.0Signed</title>
+    <authors>Rex Morgan</authors>
+    <owners>Rex Morgan</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectUrl>https://github.com/rexm/Handlebars.Net</projectUrl>
+    <iconUrl>https://raw.githubusercontent.com/rexm/Handlebars.Net/master/hbnet-icon.png</iconUrl>
+    <description>Blistering-fast Handlebars.js templates in your .NET application.</description>
+    <summary>Blistering-fast Handlebars.js templates in your .NET application.</summary>
+    <releaseNotes>Now supports "dotnet core" / net standard 1.5! Also added support for inline partials. Also includes fixes for more complicated scenarios with hash parameters, and improved support for literals.</releaseNotes>
+    <tags>handlebars mustache templating engine compiler</tags>
+    <dependencies>
+      <group targetFramework=".NETStandard1.5">
+        <dependency id="System.Dynamic.Runtime" version="4.0.11" />
+        <dependency id="System.Reflection.Extensions" version="4.0.1" />
+        <dependency id="Microsoft.CSharp" version="4.0.1" />
+        <dependency id="NETStandard.Library" version="1.6.0" />
+      </group>
+    </dependencies>
+  </metadata>
+</package>

@@ -137,3 +137,8 @@ Pull requests are welcome! The guidelines are pretty straightforward:
 - Avoid dependencies outside of the .NET BCL
 - Maintain cross-platform compatibility (.NET/Mono; Windows/OSX/Linux/etc)
 - Follow the established code format
+
+##Notes:
+- Certificate password => Handlebars
+- For generate the package run cmd command currentFolder\.nuget\NuGet.exe pack CurrentFolder\Handlebars.Net\source\Handlebars\Handlebars.csproj -IncludeReferencedProjects -Prop Configuration=Release  -OutputDirectory CurrentFolder\Handlebars.Net\source\output-packages
+  where currentFolder is the folder that contains the source code
